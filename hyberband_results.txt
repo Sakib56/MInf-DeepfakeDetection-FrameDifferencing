@@ -1,0 +1,214 @@
+Trial 61 Complete [00h 01m 56s]
+val_auc: 0.5841274261474609
+
+Best val_auc So Far: 0.6666965484619141
+Total elapsed time: 01h 32m 19s
+
+Search: Running Trial #62
+
+Hyperparameter    |Value             |Best Value So Far 
+DENSE_UNITS_0     |3584              |2304              
+DROPOUT_PROB_0    |0                 |0.3               
+DENSE_UNITS_1     |2304              |3328              
+DROPOUT_PROB_1    |0.3               |0.15              
+DENSE_UNITS_2     |2560              |1280              
+DROPOUT_PROB_2    |0.05              |0.15              
+DENSE_UNITS_3     |4096              |1280              
+DROPOUT_PROB_3    |0.3               |0                 
+MOMENTUM          |0.1               |0.9               
+FROM_LOGITS       |True              |False             
+LABEL_SMOOTHING   |0.65              |0.55              
+tuner/epochs      |4                 |30                
+tuner/initial_e...|0                 |10                
+tuner/bracket     |2                 |3                 
+tuner/round       |0                 |3 
+
+Results summary
+Results in tuner_logs/df_avg
+Showing 10 best trials
+Objective(name='val_auc', direction='max')
+Trial summary
+Hyperparameters:
+DENSE_UNITS_0: 2304
+DROPOUT_PROB_0: 0.30000000000000004
+DENSE_UNITS_1: 3328
+DROPOUT_PROB_1: 0.15000000000000002
+DENSE_UNITS_2: 1280
+DROPOUT_PROB_2: 0.15000000000000002
+DENSE_UNITS_3: 1280
+DROPOUT_PROB_3: 0.0
+MOMENTUM: 0.9
+FROM_LOGITS: False
+LABEL_SMOOTHING: 0.55
+tuner/epochs: 30
+tuner/initial_epoch: 10
+tuner/bracket: 3
+tuner/round: 3
+tuner/trial_id: 6cae89903ce599f820dd173e2be07adf
+Score: 0.6666965484619141
+Trial summary
+Hyperparameters:
+DENSE_UNITS_0: 2304
+DROPOUT_PROB_0: 0.30000000000000004
+DENSE_UNITS_1: 3328
+DROPOUT_PROB_1: 0.15000000000000002
+DENSE_UNITS_2: 1280
+DROPOUT_PROB_2: 0.15000000000000002
+DENSE_UNITS_3: 1280
+DROPOUT_PROB_3: 0.0
+MOMENTUM: 0.9
+FROM_LOGITS: False
+LABEL_SMOOTHING: 0.55
+tuner/epochs: 10
+tuner/initial_epoch: 4
+tuner/bracket: 3
+tuner/round: 2
+tuner/trial_id: 57261ba289be7f0ab9d64e691eb2f241
+Score: 0.6509252786636353
+Trial summary
+Hyperparameters:
+DENSE_UNITS_0: 2816
+DROPOUT_PROB_0: 0.0
+DENSE_UNITS_1: 1280
+DROPOUT_PROB_1: 0.1
+DENSE_UNITS_2: 3584
+DROPOUT_PROB_2: 0.30000000000000004
+DENSE_UNITS_3: 3328
+DROPOUT_PROB_3: 0.1
+MOMENTUM: 0.7000000000000001
+FROM_LOGITS: True
+LABEL_SMOOTHING: 0.15000000000000002
+tuner/epochs: 10
+tuner/initial_epoch: 4
+tuner/bracket: 3
+tuner/round: 2
+tuner/trial_id: f6b20d907baca473bcbf649dc439b1c2
+Score: 0.6416124105453491
+Trial summary
+Hyperparameters:
+DENSE_UNITS_0: 2816
+DROPOUT_PROB_0: 0.35000000000000003
+DENSE_UNITS_1: 1792
+DROPOUT_PROB_1: 0.2
+DENSE_UNITS_2: 2560
+DROPOUT_PROB_2: 0.25
+DENSE_UNITS_3: 1536
+DROPOUT_PROB_3: 0.2
+MOMENTUM: 0.8
+FROM_LOGITS: True
+LABEL_SMOOTHING: 0.1
+tuner/epochs: 4
+tuner/initial_epoch: 0
+tuner/bracket: 2
+tuner/round: 0
+Score: 0.6413593292236328
+Trial summary
+Hyperparameters:
+DENSE_UNITS_0: 2816
+DROPOUT_PROB_0: 0.0
+DENSE_UNITS_1: 1280
+DROPOUT_PROB_1: 0.1
+DENSE_UNITS_2: 3584
+DROPOUT_PROB_2: 0.30000000000000004
+DENSE_UNITS_3: 3328
+DROPOUT_PROB_3: 0.1
+MOMENTUM: 0.7000000000000001
+FROM_LOGITS: True
+LABEL_SMOOTHING: 0.15000000000000002
+tuner/epochs: 30
+tuner/initial_epoch: 10
+tuner/bracket: 3
+tuner/round: 3
+tuner/trial_id: b0ae2a66d34966bf4131db2f508c24a6
+Score: 0.6307363510131836
+Trial summary
+Hyperparameters:
+DENSE_UNITS_0: 2816
+DROPOUT_PROB_0: 0.05
+DENSE_UNITS_1: 2560
+DROPOUT_PROB_1: 0.1
+DENSE_UNITS_2: 4096
+DROPOUT_PROB_2: 0.25
+DENSE_UNITS_3: 2048
+DROPOUT_PROB_3: 0.05
+MOMENTUM: 0.7000000000000001
+FROM_LOGITS: False
+LABEL_SMOOTHING: 0.2
+tuner/epochs: 4
+tuner/initial_epoch: 0
+tuner/bracket: 2
+tuner/round: 0
+Score: 0.6176623702049255
+Trial summary
+Hyperparameters:
+DENSE_UNITS_0: 2304
+DROPOUT_PROB_0: 0.4
+DENSE_UNITS_1: 2560
+DROPOUT_PROB_1: 0.15000000000000002
+DENSE_UNITS_2: 2048
+DROPOUT_PROB_2: 0.1
+DENSE_UNITS_3: 3840
+DROPOUT_PROB_3: 0.2
+MOMENTUM: 0.8
+FROM_LOGITS: True
+LABEL_SMOOTHING: 0.4
+tuner/epochs: 4
+tuner/initial_epoch: 0
+tuner/bracket: 2
+tuner/round: 0
+Score: 0.6117957830429077
+Trial summary
+Hyperparameters:
+DENSE_UNITS_0: 2816
+DROPOUT_PROB_0: 0.2
+DENSE_UNITS_1: 3328
+DROPOUT_PROB_1: 0.05
+DENSE_UNITS_2: 3584
+DROPOUT_PROB_2: 0.2
+DENSE_UNITS_3: 2560
+DROPOUT_PROB_3: 0.15000000000000002
+MOMENTUM: 0.6000000000000001
+FROM_LOGITS: False
+LABEL_SMOOTHING: 0.2
+tuner/epochs: 4
+tuner/initial_epoch: 0
+tuner/bracket: 2
+tuner/round: 0
+Score: 0.6103846430778503
+Trial summary
+Hyperparameters:
+DENSE_UNITS_0: 4096
+DROPOUT_PROB_0: 0.25
+DENSE_UNITS_1: 1280
+DROPOUT_PROB_1: 0.15000000000000002
+DENSE_UNITS_2: 1536
+DROPOUT_PROB_2: 0.30000000000000004
+DENSE_UNITS_3: 3328
+DROPOUT_PROB_3: 0.15000000000000002
+MOMENTUM: 0.1
+FROM_LOGITS: True
+LABEL_SMOOTHING: 0.25
+tuner/epochs: 2
+tuner/initial_epoch: 0
+tuner/bracket: 3
+tuner/round: 0
+Score: 0.6098891496658325
+Trial summary
+Hyperparameters:
+DENSE_UNITS_0: 3584
+DROPOUT_PROB_0: 0.1
+DENSE_UNITS_1: 2304
+DROPOUT_PROB_1: 0.05
+DENSE_UNITS_2: 3584
+DROPOUT_PROB_2: 0.30000000000000004
+DENSE_UNITS_3: 2560
+DROPOUT_PROB_3: 0.30000000000000004
+MOMENTUM: 0.2
+FROM_LOGITS: True
+LABEL_SMOOTHING: 0.05
+tuner/epochs: 10
+tuner/initial_epoch: 4
+tuner/bracket: 3
+tuner/round: 2
+tuner/trial_id: edd887524c3c086ff5c6644f0b71c72a
+Score: 0.6089458465576172
