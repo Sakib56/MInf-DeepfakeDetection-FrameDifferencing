@@ -130,3 +130,6 @@ dmypy.json
 *.png
 *.7z
 *.pdf
+*.mp4
+*.jpg
+*.data-00000-of-00001
